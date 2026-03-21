@@ -1,0 +1,124 @@
+.Faq {
+  width: 100%;
+  position: relative;
+  height: 626px;
+  margin: 90px 0px 0px 0px;
+}
+.Faq_margin{
+  margin-top: -0px;
+}
+.faq_box_1 {
+  position: absolute;
+  width: 807px;
+  height: 626px;
+  opacity: 0.08;
+  z-index: -1;
+  background-image: url(/assests/bg.png);
+  background-size: cover;
+}
+.faq_conatiner {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #eeeadf54;
+  height: 621px;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 90px 200px 50px 200px;
+}
+.faq_box_01 {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.faq_box_02 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.q-a {
+  padding: 18px 35px;
+  width: 100%;
+  background-color: white;
+  border-radius: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 4px solid #f9f4e8;
+}
+.q_a_heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 00px 0px 0px 0px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 28px;
+  color: #283734;
+  letter-spacing: -0.02em;
+  position: relative;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  z-index: 1;
+}
+.q_a_heading_colored {
+  color: var(--secondary_color);
+  transition: all 500ms ease;
+}
+.q_a_answer {
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #6f7775;
+  transition: all 500ms ease;
+}
+
+.q_a_icon {
+  background-color: #f9f4e8;
+  color: black;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: -13px -02px 0px 0px;
+  font-size: 32px;
+  transition: 550ms all ease-in;
+}
+.q_a_icon_color {
+  background-color: var(--primary_color);
+  transition: 550ms all ease-in;
+  color: white !;
+}
+.plus {
+  color: black;
+}
+.minus {
+  color: black;
+}
+@media (max-width: 1026px) {
+  .Faq {
+    height: auto;
+  }
+  .faq_conatiner {
+    flex-direction: column;
+    padding: 0px 0px 50px 0px;
+    gap: 30px;
+    height: auto;
+  }
+  .faq_box_01 {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .faq_box_02 {
+    width: 80%;
+  }
+  .heading_left_main {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

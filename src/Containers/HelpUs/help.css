@@ -1,0 +1,140 @@
+/* .helpus {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.help_heading {
+  width: 40%;
+  margin: auto;
+}
+.help_container {
+  display: flex;
+  gap: 40px;
+  padding: 50px 0px;
+}
+.help_box {
+  background-color: #283734;
+  height: 509px;
+  width: 503px;
+  padding: 45px 40px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  position: relative;
+}
+.help_info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.help_titile {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  width: 70%;
+}
+.help_list_conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+.help_list {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  font-family: var(--third_font);
+}
+.help_list:before {
+  content: "✓";
+  margin-right: 10px;
+  margin-left: -35px;
+}
+.help_icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 117px;
+  width: 117px;
+  background-color: var(--secondary_color);
+  border-radius: 50%;
+  font-size: 65px;
+  color: white;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.help_icon:hover {
+  background-color: var(--primary_color);
+  color: black;
+}
+.m-50 {
+  margin-top: 30px;
+}
+.yellow {
+  background-color: var(--primary_color);
+  color: black;
+}
+.yellow:hover {
+  background-color: var(--secondary_color);
+  color: white;
+}
+.help_shape {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-image: url(/assests/shape-2.png);
+  background-size: cover;
+  background-color: var(--primary_color);
+  border-radius: 30px;
+}
+.green {
+  background-color: var(--secondary_color);
+}
+
+@media (max-width: 1026px) {
+  .helpus {
+    padding: 50px 0px;
+  }
+  .help_heading {
+    width: 82%;
+    margin: auto;
+  }
+  .help_container {
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .help_box {
+    width: 90%;
+    height: auto;
+  }
+  .help_info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .help_titile {
+    width: 80%;
+    font-size: 28px;
+  }
+  .help_list::before {
+    content: "✓";
+    margin-right: 10px;
+    margin-left: -51px;
+  }
+  .help_list {
+    font-size: 14px;
+  }
+} */

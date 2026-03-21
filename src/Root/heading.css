@@ -1,0 +1,116 @@
+/* .heading__sub-heading {
+  display: flex;
+  flex-direction: column;
+}
+.sub_heading_middle {
+  font-family: var(--secondary_font);
+  color: var(--secondary_color);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.heading_center {
+  font-family: var(--primary_font);
+  color: var(--third_color);
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-top: 6px;
+  text-align: center;
+}
+.heading_left_ {
+  font-family: var(--primary_font);
+  color: var(--third_color);
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-top: 6px;
+  text-align: left;
+}
+.heading_left_ {
+  font-family: var(--primary_font);
+  color: var(--third_color);
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-top: 6px;
+  text-align: left;
+}
+.sub_heading_left {
+  font-family: var(--secondary_font);
+  color: var(--secondary_color);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.heading_left_main {
+  font-family: var(--primary_font);
+  color: var(--third_color);
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  margin-top: -4px;
+}
+.sub_heading_left_main {
+  font-family: var(--secondary_font);
+  color: var(--primary_color);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+.heading_left {
+  font-family: var(--primary_font);
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-top: 6px;
+  text-align: left;
+}
+.heading_center_color {
+  font-family: var(--primary_font);
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.sub_heading_center_color {
+  font-family: var(--secondary_font);
+  color: var(--primary_color);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (max-width: 1026px) {
+  .sub_heading_left_main {
+    font-size: 18px;
+  }
+  .heading_left {
+    font-size: 40px;
+  }
+  .heading_left_ {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .sub_heading_left {
+    font-size: 20px;
+  }
+  .heading_center {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .heading_center_color {
+    font-size: 31px;
+  }
+} */
