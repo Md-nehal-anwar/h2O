@@ -83,7 +83,7 @@ export default function Testi() {
                 />
               </div>
             </div>
-            <div className="absolute  md:mt-4">
+            <div className="absolute pl-4 md:pl-0 md:mt-4">
               <div className=" md:pl-40  md:w-160   md:mt-30 ml-4 md:ml-160    ">
                 {testiData.map((item, index) => {
                   return (
