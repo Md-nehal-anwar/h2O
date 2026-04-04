@@ -125,7 +125,7 @@ export default function Testi() {
             </div>
           </div>
 
-           <div className="absolute flex gap-2 bottom-8 md:bottom-36 z-10 right-16 md:right-44">
+          <div className="absolute flex gap-2 bottom-8 md:bottom-36 z-10 right-16 md:right-44">
             <div
               className="p-4 bg-white hover:bg-[var(--secondary_color)]  rounded-full text-center hover:text-white  "
               onClick={() => leftTesti()}
