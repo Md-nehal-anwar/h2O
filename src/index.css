@@ -2,6 +2,12 @@
 @import "tailwindcss";
 
 
+/* 
+*{
+  overflow-x: hidden;
+} */
+
+
 :root {
   --primary_font: "Nunito";
   --secondary_font:"Caveat",cursive;
