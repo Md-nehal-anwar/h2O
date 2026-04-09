@@ -34,14 +34,14 @@ function MainSLider() {
               >
                 <div className="absolute inset-0 bg-[#212D2B]/40"> </div>
                 <div className="relative z-10 sm:w-[50%] xl:w-[50%] sm:p-4 xl:p-24 ">
-                  <div className="">
+                  <div className="p-4 md:p-0 text-justify">
                     <div className="text-xl font-['Caveat']  text-[var(--primary_color)] font-semibold  ">
                       {data.quote}
                     </div>
 
-                    <div className="text-4xl font-bold">{data.title}</div>
+                    <div className="text-4xl font-bold ">{data.title}</div>
                     <br />
-                    <div>{data.description}</div>
+                    <div className="">{data.description}</div>
                     <br />
                     <div className="flex gap-4 ">
                       <div className="w-[42%] text-center bg-[var(--primary_color)] flex justify-center items-center  text-white py-[10px] rounded-[25px]">

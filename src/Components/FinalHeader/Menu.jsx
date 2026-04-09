@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 import { CiMail } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa";
 import { AboutMenu, WorkMenu, JoinUs, VolunteerMenuData } from "./dropdown";
@@ -7,6 +8,7 @@ import { NavbarDropdown, MobileNavBar } from "./NavbarDropdown";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import Mapwork from "./Mapwork";
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -145,7 +147,8 @@ useEffect(() => {
               <div className="">
                 <HiMiniHeart size={20} className="text-gray-500" />
               </div>
-              <div className="font-['Manrope']">Donate Now</div>
+              {/* <div className="font-['Manrope']" onClick={() => navigate("/Mapwork")} >Donate Now</div> */}
+              <Link className="font-['Manrope']" to="/Mapwork" >Donate Now</Link>
             </div>
           </div>
         </div>

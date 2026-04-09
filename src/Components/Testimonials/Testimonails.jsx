@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./testi.css";
 import { testiData } from "./testidata";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { ImQuotesRight } from "react-icons/im";
